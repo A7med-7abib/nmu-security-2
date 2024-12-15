@@ -38,7 +38,7 @@ function display() {
     view += `
       <div class="col-md-4 p-3">
         <div class="card" style="width: 18rem; padding: 15px;">
-          <img src="${imgURL}" class="card-img-top" alt="Lost Item Image" loading="lazy">
+          <img src="${imgURL}" class="card-img-top img-fluid" alt="Lost Item Image" style="height: 200px; object-fit: cover;" alt="Car Image" loading="lazy"">
           <div class="card-body">
             <h5 class="card-title">Name: ${list[i].name}</h5>
             <p class="card-text fw-bold">Place: ${list[i].comment}</p>
